@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Form</title>
+</head>
+<body>
+    <form action="index.html" class="form-rgt">
+        <div class="ttl-rgt"> 
+            <img src="/01-Form/img/pastel-removebg-preview.png" alt="pastel" class="img-rgt">
+            <h1>Registro</h1>
+            <img src="/01-Form/img/Post_instagram_quote_frase-removebg-preview (1).png" alt="pastel" class="img-rgt">
+        </div>
+        
+        <div class="inp-register">
+            <label for="nombre"><h2>Nombre completo</h2></label>
+            <input type="text" required placeholder="Ingresa tu nombre completo" id="nombre">
+        </div>
+
+        <div class="inp-register">
+            <label for="correo"><h2>Correo electronico</h2></label>
+            <input type="email" required placeholder="Ingresa tu correo electronico" id="correo">
+        </div>
+
+        <div class="inp-register">
+            <label for="contrasenia"><h2>Contraseña</h2></label>
+            <input type="password" required placeholder="Crea una Contraseña" minlength="6" id="contrasenia">
+        </div>
+
+        <div class="inp-register">
+            <label for="confirmarContrasenia"><h2>Confirmar contraseña</h2></label>
+            <input type="password" required placeholder="Confirma la contraseña" minlength="6" id="confirmarContrasenia">
+        </div>
+
+        <div>
+            <input type="submit" value="Resgirtrarse" class="enviar">
+        </div>
+
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

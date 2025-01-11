@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(/01-Form/img/Pancake\ Day.png);
+}
+form {
+    width: 500px;
+    height: auto;
+    padding: 40px 30px;
+    background: rgb(255, 255, 255);
+    border-radius: 17px;
+    box-shadow: 5px 10px 20px black;
+    margin: 100px auto;
+}
+h1 {
+    color: rgb(145, 107, 11);
+    margin-bottom: 30px;
+    font-size: 38px;
+}
+.ttl-rgt {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    text-align: right;
+    justify-content: center;
+}
+.img-rgt{
+    width: 40px;
+    height: 50px;
+    text-align: center;
+    margin-top: -4px;
+
+}
+.enviar {
+    background-color: rgb(145, 107, 11);
+    border-radius: 5px;
+    border-width: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: medium;
+    cursor: pointer;
+    transition: all 250ms;
+}
+.enviar:hover {
+    background-color: rgb(167, 126, 23);
+}
+
+form div input {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 17px;
+    border-radius: 5px;
+    border-width: 1px;
+    font-size: medium;
+}
+.inp-register input:focus{
+    border-color: goldenrod;
+}
+
+form div label h2 {
+    color: rgb(133, 99, 14);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+
+@media screen and (max-width: 850px){
+    form {
+        width: 350px;
+        padding: 20px 20px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .img-rgt{
+        margin-top: -0px;
+        width: 35px;
+        height: 35px;
+    }
+}
+@media screen and (max-width: 395px){
+    form {
+        width: 320px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .img-rgt{
+        margin-top: -4px;
+        width: 30px;
+        height: 35px;
+    }
+    .enviar{
+        font-size: small;
+    }
+}
