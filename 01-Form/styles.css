@@ -66,13 +66,22 @@ form input, .enviar {
     border-width: 1px;
     font-size: medium;
 }
-
+.confirmar {
+    margin-bottom: 10px;
+}
 
 fieldset {
     border: none; /* Para quitar el marco por completo */
     padding: 0;
     margin: 0px 0;
 }
+.message {
+    border-radius: 5px;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
 /*
 * ************************************************ *
 *                 ↓  Responsive ↓                  *
