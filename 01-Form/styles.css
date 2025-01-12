@@ -5,6 +5,9 @@
 }
 body {
     background-image: url(/01-Form/img/Pancake\ Day.png);
+    min-height: 100dvh;
+    display: grid;
+    place-items:center
 }
 form {
     width: 500px;
@@ -13,13 +16,19 @@ form {
     background: rgb(255, 255, 255);
     border-radius: 17px;
     box-shadow: 5px 10px 20px black;
-    margin: 100px auto;
 }
 h1 {
     color: rgb(145, 107, 11);
     margin-bottom: 30px;
     font-size: 38px;
 }
+h2 {
+    padding: 10px;
+    color: rgb(133, 99, 14);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
 .ttl-rgt {
     width: 100%;
     display: flex;
@@ -49,25 +58,26 @@ h1 {
     background-color: rgb(167, 126, 23);
 }
 
-form div input {
+form input, .enviar {
     padding: 10px;
     width: 100%;
-    margin-bottom: 17px;
+    margin-bottom: 15px;
     border-radius: 5px;
     border-width: 1px;
     font-size: medium;
 }
-.inp-register input:focus{
-    border-color: goldenrod;
+
+
+fieldset {
+    border: none; /* Para quitar el marco por completo */
+    padding: 0;
+    margin: 0px 0;
 }
-
-form div label h2 {
-    color: rgb(133, 99, 14);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
-}
-
-
+/*
+* ************************************************ *
+*                 ↓  Responsive ↓                  *
+* ************************************************ *
+*/
 @media screen and (max-width: 850px){
     form {
         width: 350px;
