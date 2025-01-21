@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultivemos el Futuro</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="container-hero">
+            <div class="logo">
+                <img src="../images/logo-removebg-preview.png" alt="">
+            </div>
+            <div class="byn">
+                <button >
+                    <a href="index.html" class="enlace">
+                        <div class="nav-btn">
+                            <i class="fa-solid fa-house"></i>
+                            <h2 class="text-btn">Inicio</h2>
+                        </div>
+                    </a>
+                </button>
+                <button >
+                    <div class="nav-btn">
+                        <i class="fa-solid fa-people-group"></i>
+                        <h2 class="text-btn">Comunidad</h2>
+                    </div>
+                </button>
+                <button >
+                    <div class="nav-btn">
+                        <i class="fa-brands fa-canadian-maple-leaf"></i>
+                        <h2 class="text-btn">Eventos ecologicos</h2>
+                    </div>
+                </button>
+                <button >
+                    <div class="nav-btn">
+                        <i class="fa-solid fa-tree"></i>
+                        <h2 class="text-btn">Arboles historicos</h2>
+                    </div>
+                </button>
+                <button >
+                    <div class="nav-btn">
+                        <i class="fa-solid fa-user"></i>
+                        <h2 class="text-btn">Iniciar Secion</h2>
+                    </div>
+                </button>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="contenedor__todo">
+
+            <div class="caja__trasera">
+                <div class="caja__trasera-login">
+                    <h3>¿Ya tienes una cuenta?</h3>
+                    <p>Inicia sesion para entrar en la pagiana</p>
+                    <button id="btn-iniciar-sesion">Iniciar sesion</button>
+                </div>
+                <div class="caja__trasera-register">
+                    <h3>¿Aun no tienes una cuenta?</h3>
+                    <p>Registrate para que puedas iniciar sesion</p>
+                    <button type="submit" id="btn-registrarse">Registrarse</button>
+                </div>
+            </div>
+            <div class="contenedor__login-register">
+                <form action="" class="formulario__login">
+                    <h2>Iniciar sesion</h2>
+                    <div class="input-ttl">
+                        <label for="email">Correo Electronico</label>
+                        <input type="email" placeholder="Ingresa tu correo electronico" >
+                    </div>
+                    <div class="input-ttl">
+                        <label for="contraseña">Contraseña</label>
+                        <input type="email" placeholder="Ingresa tu contraseña">
+                    </div>
+                    <button type="submit">Entrar</button>
+                </form>
+
+                <form action="" class="formulario__register">
+                    <h2>Registrarse</h2>
+
+                    <div class="input-ttl">
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" placeholder="Ingresa tu nombre completo" id="nombre">
+                    </div>
+
+                    <div class="input-ttl">
+                        <label for="email">Correo Electronico</label>
+                        <input type="email" placeholder="Ingresa tu correo electronico" id="email">
+                    </div>
+
+                    <div class="input-ttl">
+                        <label for="contraseña">Contraseña</label>
+                        <input type="password" placeholder="Crea una contraseña" id="contraseña">
+                    </div>
+
+                    <div class="input-ttl">
+                        <input type="password" placeholder="Confirma tu contraseña">
+                    </div>
+
+                    <button type="submit">Regitrarse</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="../js/script.js"></script>
+</body>
+</html>
+
+    
+    <script src="../js/login.js"></script>
+</body>
+</html>

@@ -43,6 +43,10 @@ h1 {
     align-items: center;
     text-shadow: 2px 3px 41px rgb(0, 0, 0);
 }
+.enlace {
+    text-decoration: none;
+    color: inherit
+}
 .text-btn {
     font-size: 16px;
 }
