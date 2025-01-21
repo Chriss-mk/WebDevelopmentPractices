@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family:'Arial', sans-serif;
 }
 body {
     min-height: 100vh;
-    background-color: #232323;
+    background-image: url(../03-CalculadoraBasica/fondomat.png);
     display: grid;
     place-items: center;
 }
@@ -17,12 +17,15 @@ body {
     max-width: 100%;
     padding: 1.5rem;
     border-radius: 1.5rem;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: .5rem;
     box-shadow: 0 0 20px #0edada;
 }
-.pantalla {
+section {
+    width:300px;
+    display: grid;
+    gap: .5rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+header  {
     width: 100%;
     grid-column: 1/5;
     background-color: #090c31;
@@ -34,7 +37,7 @@ body {
     font-family: monospace;
     font-weight: bold;
 }
-.btn {
+.btn  {
     background-color: #006da7;
     color: white;
     border: 0;

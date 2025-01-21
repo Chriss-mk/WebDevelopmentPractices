@@ -3,32 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>calculadora</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="calculadora">
-        <div class="pantalla">0</div>
+    <main class="calculadora">
+        <header>
+            <div class="pantalla">0</div>
+        </header>
+        <section class="botones">
+            <button class="btn" id="c" aria-label="Clear">C</button>
 
-        <button class="btn" id="c">C</button>
-        <button class="btn division" >/</button>
-        <button class="btn" id="borrar">←</button>
-        <button class="btn">*</button>
-        <button class="btn">7</button>
-        <button class="btn">8</button>
-        <button class="btn">9</button>
-        <button class="btn">-</button>
-        <button class="btn">4</button>
-        <button class="btn">5</button>
-        <button class="btn">6</button>
-        <button class="btn">+</button>
-        <button class="btn">1</button>
-        <button class="btn">2</button>
-        <button class="btn">3</button>
-        <button class="btn" id="igual">=</button>
-        <button class="btn" id="cero">0</button>
-        <button class="btn">.</button>
-    </div>
+            <button class="btn" id="potencia">x<sup>2</sup></button>
+            <button class="btn" id="raiz">√x</button>
+            <button class="btn" id="borrar"><i class="fa-solid fa-delete-left"></i></button>
+            <button class="btn" id="logaritmo">log</button>
+            <button class="btn" id="exp">e<sup>x</sup></button>
+
+            <button class="btn division" >/</button>
+            <button class="btn">*</button>
+            <button class="btn">7</button>
+            <button class="btn">8</button>
+            <button class="btn">9</button>
+            <button class="btn">-</button>
+            <button class="btn">4</button>
+            <button class="btn">5</button>
+            <button class="btn">6</button>
+            <button class="btn">+</button>
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+            <button class="btn" id="igual">=</button>
+            <button class="btn" id="cero">0</button>
+            <button class="btn">.</button>
+            
+        </section>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>

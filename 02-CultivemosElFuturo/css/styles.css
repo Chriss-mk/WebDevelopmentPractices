@@ -112,9 +112,6 @@ button {
 * ************************************************ *
 */
 @media screen and (max-width: 850px){
-    .banner {
-        height: 200px;
-    }
     .text-btn {
         display: none;
     }
