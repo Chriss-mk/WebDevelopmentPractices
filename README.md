@@ -7,3 +7,6 @@
 
 ## 2.0 - Login/Register C.E.F.
 <img src="/02-CultivemosElFuturo/images/CultivemosElFuturoLogin.png">
+
+## 2.0 - Practica 1.
+<img src="/Practica1/img/disenowebalex.png">
