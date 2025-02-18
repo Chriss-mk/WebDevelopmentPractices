@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    background-color: brown;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    background-color: rgb(255, 249, 249);
+}
+.gif-libro {
+    width: 100%;
+    height: 400px;
+}
+.biografia-main {
+    display: flex;
+    padding: 50px 100px;
+    gap: 20px;
+}
+.main-ciudad, .opinion-main {
+    padding: 20px 300px;
+}
+.links {
+    display: flex;
+    gap: 25px;
+}
+
+h1 {
+    font-size: 43px;
+    color: brown;
+}
+h2 {
+    font-size: 45px;
+    color: rgb(206, 206, 206);
+}
+h3 {
+    font-size: 40px;
+    margin-top: 20px;
+    color: rgb(206, 206, 206);
+}
+h4 {
+    font-size: 29px;
+    color: rgb(206, 206, 206);
+}
+p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgb(255, 254, 252);
+    font-size: 25px;
+}
+.biografia {
+    padding: 0px 40px;
+}
+.biografia ul {
+    margin-top: 30px;
+}
+.biografia li {
+    color: aliceblue;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.biografia a {
+    text-decoration: none;
+    color: rgb(110, 221, 255);
+}
+.autor-img {
+    margin-top: 86px;
+    align-items: center;
+}
+.autor-img img {
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.books-img {
+    margin-top: 40px;
+}
+.books-img img {
+    width: 150px;
+    margin: 40px 0px;
+}
+.ciudadypreferencias {
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: brown;
+    font-weight: bold;
+    font-size: 29px;
+}
+.lista-comida ul {
+    margin-left: 90px;
+    font-size: 18px;
+    padding: 20px 100px;
+    margin-top: 15px;
+}
+.lista-comida li {
+    font-size: 25px;
+    margin-bottom: 78px;
+    color: aliceblue;
+}
+.container-gneral-ciudad {
+    display: flex;
+}
+.comida-tipicas {
+    margin-top: 100px;
+}
+.comida-tipicas img {
+    width: 150px;
+    height: 100px;
+    margin-bottom: 70px;
+    display: block;
+    margin-right: 200px;
+}
+footer {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 90px;
+}
+footer h5 {
+    font-size: 20px;
+    color: brown;
+    margin-bottom: 10px;
+}
+
+
+::-webkit-scrollbar {
+    width: 16px; 
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(243, 241, 241);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: brown;
+    border-radius: 10px;
+    border: 4px solid rgb(243, 241, 241);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
