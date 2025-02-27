@@ -1,0 +1,12 @@
+Paleta de colores
+Primary: #EC3D08
+Accent: #FFB936
+Gray: #646C7B
+Background: #F0F4FD
+Black: #010F1C
+
+Titulos: Epilogue
+https://fonts.google.com/specimen/Epilogue
+
+Textos parrafo: Roboto
+https://fonts.google.com/specimen/Roboto
